@@ -2,13 +2,14 @@ body{
     background-repeat: no-repeat ;
     background-size: cover;
 }
-a{
+#a{
 
     font-weight: 1000;
+    color: white;
 }
 .container {
     background-color:transparent;
-    width: 300px;
+    width: 400px;
     margin: 50px auto;
     padding: 20px;
     border: 1px solid transparent;
@@ -17,13 +18,14 @@ a{
     margin-top: 100px;
     color: #162938;
     font-weight: 800;
+  
 
     
 }
 
  h2 {
-    font-size: 24px;
     margin-bottom: 20px;
+    color: white;
 }
 
 .form-group {
@@ -34,6 +36,7 @@ a{
 label {
     display: block;
     margin-bottom: 5px;
+    color: #fff;
     
 }
 
@@ -71,22 +74,32 @@ label {
 
 #submit {
     background-color: transparent;
-    color: #162938;
+    color: #ffff;
     font-weight: 800;
     font-size: 1.1em;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    border: solid #162938 3px;
+    border: solid #0d3b5d 3px;
 }
 #submit:hover{
-  background-color:#162938; 
+  background-color:#0b4f84; 
     font-weight: 900;
     color: #ffff;
 }
 input{
     margin-bottom: 30px;
 }
+.icon{
+    display: flex;
+    flex-direction: row-reverse;
+    color: #0b4f84;
+    position: relative;
+    top: 50px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
 
 
