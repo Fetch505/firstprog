@@ -10,28 +10,30 @@ body {
     ;
 }
 
-
+ 
 nav{
     background: #333;
     padding:10px;
-    ;
+    
 }
 
 header h1 {
     font-size: 32px;
 }
-
-
-
-.contact-form {
+.container{
     margin: 20px auto;
     max-width: 600px;
     padding: 20px;
-    background-color: #fff;
+    background-color:transparent;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 90px;
+    border-radius: 20px;
+    color: white;
+    padding: 20px;
+    
 }
 
-.contact-form h2 {
+.container h2 {
     font-size: 24px;
     margin-bottom: 20px;
 }
@@ -44,22 +46,26 @@ label {
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    margin-top: 20p;
+    
+
 }
 
 button {
-    background-color: #333;
-    color: #fff;
+    background-color:#3498DB ;
     padding: 10px 20px;
+    font-size: 15px ;
     border: none;
-    border-radius: 5px;
+    border-radius: 50px;
     cursor: pointer;
+   
 }
 
 button:hover {
-    background-color: #555;
+    background-color: green;
 }
